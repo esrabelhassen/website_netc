@@ -35,9 +35,9 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: t('contact.emailLabel'), value: 'contact@netc.com' },
-    { icon: Phone, label: t('contact.phoneLabel'), value: '+1 (555) 000-0000' },
-    { icon: MapPin, label: t('contact.address'), value: t('contact.addressVal') },
+    { icon: Mail, label: t('contact.emailLabel'), value: 'direction@netc.fr' },
+    { icon: Phone, label: t('contact.phoneLabel'), value: '+216 20 784 272' },
+    { icon: MapPin, label: t('contact.address'), value: t('Immeuble Yesmine, Rue Ali Bourguiba, 5000 Skanes Monastir') },
   ];
 
   return (

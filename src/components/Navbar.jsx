@@ -43,15 +43,19 @@ export default function Navbar({ t, lang, setLang, isRTL, supportedLanguages, th
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-navy to-orange flex items-center justify-center">
-              <span className="text-white font-inter font-bold text-lg">N</span>
+        {/* Logo */}
+        <Link to="/" className="flex items-center gap-2 group">
+          <div className="w-13 h-13 rounded-xl bg-gradient-to-br from-navy to-orange flex items-center justify-center">
+                <img
+                  src="/netclogo.png"
+                  alt="NETC logo"
+                  className="w-13 h-12 object-contain"
+                />
             </div>
-            <span className="text-xl font-inter font-bold text-foreground tracking-tight">
-              NETC
-            </span>
-          </Link>
+          <span className="text-xl font-inter font-bold text-foreground tracking-tight">
+            NETC
+          </span>
+        </Link>
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-1">

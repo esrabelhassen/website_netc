@@ -8,8 +8,12 @@ export default function Footer({ t }) {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-navy to-orange flex items-center justify-center">
-                <span className="text-white font-inter font-bold text-lg">N</span>
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-navy to-orange flex items-center justify-center">
+                <img
+                  src="/netclogo.png"
+                  alt="NETC logo"
+                  className="w-12 h-12 object-contain"
+                />
               </div>
               <span className="text-xl font-inter font-bold text-foreground">NETC</span>
             </div>
@@ -44,8 +48,8 @@ export default function Footer({ t }) {
             <h4 className="text-sm font-semibold text-foreground mb-4">{t('footer.connect')}</h4>
             <ul className="space-y-2.5">
               <li><Link to="/contact" className="text-sm text-muted-foreground hover:text-accent transition-colors">{t('nav.contact')}</Link></li>
-              <li><span className="text-sm text-muted-foreground">contact@netc.com</span></li>
-              <li><span className="text-sm text-muted-foreground">+1 (555) 000-0000</span></li>
+              <li><span className="text-sm text-muted-foreground">direction@netc.fr</span></li>
+              <li><span className="text-sm text-muted-foreground">+216 20 784 272</span></li>
             </ul>
           </div>
         </div>
